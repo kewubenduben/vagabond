@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
   s.executables = ['vagabond']
   s.add_dependency 'chef', '~> 11.0'
   s.add_dependency 'librarian-chef'
-  s.add_dependency 'test-kitchen', '~> 1.0.0.beta'
+  s.add_dependency 'test-kitchen', '~> 1.2.0'
   s.add_dependency 'thor'
   s.add_dependency 'uuidtools'
   s.add_dependency 'elecksee', '>= 1.0.10'
