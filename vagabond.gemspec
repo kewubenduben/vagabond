@@ -16,11 +16,11 @@ Gem::Specification.new do |s|
   s.executables = ['vagabond']
   s.add_dependency 'chef', '~> 11.0'
   s.add_dependency 'librarian-chef'
-  s.add_dependency 'test-kitchen', '~> 1.2.0'
+  s.add_dependency 'test-kitchen', '~> 1.2'
   s.add_dependency 'thor'
   s.add_dependency 'uuidtools'
-  s.add_dependency 'elecksee', '>= 1.0.10'
-  s.add_dependency 'serverspec', '>= 0.6.3'
+  s.add_dependency 'elecksee', '~> 1.0'
+  s.add_dependency 'serverspec', '~> 0.6'
   s.add_dependency 'attribute_struct'
   s.add_dependency 'knife-bootstrapsync'
 end
